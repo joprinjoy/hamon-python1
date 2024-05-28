@@ -28,7 +28,7 @@ def ari():
     suit="Suitable for {}"
 
     #Checking the grade
-    if ARI >0 and ARI <2:
+    if ARI >0 or ARI <2:
          print(suit.format("Kindergarten"))
     elif ARI < 3 :
          print(suit.format("GRADE 1"))
