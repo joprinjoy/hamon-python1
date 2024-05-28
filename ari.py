@@ -30,20 +30,17 @@ def ari():
     #Checking the grade
     if ARI >0 and ARI <2:
          print(suit.format("Kindergarten"))
-    elif ARI < 2 :
-         print(suit.format("GRADE 1"))
     elif ARI < 3 :
-         print(suit.format("GRADE 2"))
+         print(suit.format("GRADE 1"))
     elif ARI < 4 :
-         print(suit.format("GRADE 3"))
-
-    elif ARI < 5 :
          print(suit.format("GRADE 2"))
+    elif ARI < 5 :
+         print(suit.format("GRADE 3"))
     elif ARI < 6 :
-         print(suit.format(" GRADE 4"))
-    elif ARI < 7 :    
-         print(suit.format("GRADE 5"))
-    elif ARI < 8 :
+         print(suit.format("GRADE 4"))
+    elif ARI < 7 :
+         print(suit.format(" GRADE 5"))
+    elif ARI < 8 :    
          print(suit.format("GRADE 6"))
     elif ARI < 9 :
          print(suit.format("GRADE 7"))
@@ -57,7 +54,7 @@ def ari():
          print(suit.format("GRADE 11"))
     elif ARI < 14 :
          print(suit.format("GRADE 12"))
-    elif ARI >= 14 :
+    elif ARI > 14 :
          print(suit.format("COLLEGE STUDENTS"))
     else:
          print("Invalid")
