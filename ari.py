@@ -6,7 +6,7 @@ def ari():
     target = open(filename,'r')
     indata = target.read()
 
-    #saving the no of words, characters
+    #saving the no of words, characters(.split split string into substrings)
     word_count = len(indata.split())
     char_count = len(indata)
 
